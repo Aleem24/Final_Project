@@ -34,14 +34,15 @@
       rel="stylesheet"
     />
     <title></title>
-    <link rel="stylesheet" href="styleCalc.css">
+    <link rel="stylesheet" href="styleCalc.css" />
   </head>
+
   <body>
-    <div class="container navigation pt-3">
+    <div class="container navigation pt-4 pb-5">
       <div class="row">
         <div class="col-6 d-flex justify-content-start align-items-center">
           <i class="fa fa-spin fa-3x fa-fw text-warning pb-3"></i>
-          <h5 class="d-inline pl-2 text-white">Abdullaheel Aleem</h5>
+          <h5 class="d-inline pl-2 text-warning"> #Navigation Bar </h5>
         </div>
 
         <div class="col-6 pt-2">
@@ -60,13 +61,13 @@
 
             <div class="col-3">
               <a href="contact.html" class="text-white navigation-link"
-                >Contact</a
+                >Connect</a
               >
             </div>
 
             <div class="col-3">
               <a href="calculator.html" class="text-white navigation-link">
-                Calculator
+                Account
               </a>
             </div>
           </div>
@@ -74,33 +75,42 @@
       </div>
     </div>
 
-    <div id="container">
+    <!-- NRBC BANK -->
+
+    <header>
+    <h1 class="text-center text-white"> Smart Booth </h1>
+    
+    </header>
+
+    <div id="container mt-6 mb-0">
       <div id="calculator">
         <div id="keyboard">
-          <button class="operator" id="clear">C</button>
-
-          <button class="operator" id="Undo">CE</button>
-
-          <button class="operator" id="%">%</button>
-
-          <button class="operator" id="/">&#247;</button>
-         
-          
           <button class="number" id="1">1</button>
 
           <button class="number" id="2">2</button>
 
           <button class="number" id="3">3</button>
 
-          <button class="operator" id="*">&times;</button>
-
+          <button
+            class="operator"
+            style="background-color: red; color: black"
+            id="delete"
+          >
+            Delete
+          </button>
           <button class="number" id="4">4</button>
 
           <button class="number" id="5">5</button>
 
           <button class="number" id="6">6</button>
 
-          <button class="operator" id="-">-</button>
+          <button
+            class="operator"
+            style="background-color: green; color: black"
+            id="cancel"
+          >
+            Enter
+          </button>
 
           <button class="number" id="7">7</button>
 
@@ -108,20 +118,21 @@
 
           <button class="number" id="9">9</button>
 
-          <button class="operator" id="+">+</button>
+          <button
+            class="operator"
+            id="clear"
+            style="background-color: yellow; color: black"
+          >
+            Clear
+          </button>
 
-          <button class="empty" id="empty"></button>
+          <button class="empty" id=".">.</button>
 
           <button class="number" id="0">0</button>
 
-          <button class="empty" id="empty"></button>
+          <button class="empty" id="00">00</button>
 
-          <button class="operator" id="=">=</button>
-
-
-
-
-          
+        <button class="operator" style="background-color: orange; color: black;" id=" < < ">< <</button>
         </div>
       </div>
     </div>
