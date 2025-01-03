@@ -10,8 +10,8 @@ body{
 }
 
 #calculator{
-    width: 345px;
-    height: 370px;
+    width: 400px;
+    height: 500px;
     background-color: grey;
     margin: 0 auto;
     position: relative;
@@ -21,6 +21,8 @@ body{
 
 #keyboard{
     height: 400px;
+    margin-top: 50px;
+    margin-bottom: 0px;
 
 }
 
@@ -40,8 +42,66 @@ body{
 }
 
 .operator:active, .number:active{
-    font-size: 13px;
+    font-size: 10px;
 }
+
+.operator:focus, .number:focus, .empty:focus{
+    outline: 0;
+}
+
+#result {
+    height: 120px;
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+
+
+
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+button:nth-child(4){
+    font-size: 12px;
+    background-color: red;
+
+}
+
+button:nth-child(8) {
+    font-size: 12px;
+    background-color: green;
+
+}
+
+button:nth-child(12) {
+    font-size: 12px;
+    background-color: yellowgreen;
+
+}
+
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: orangered;
+
+}
+
+
+
+    
+
+
+
+
 
 
 
